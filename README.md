@@ -1,0 +1,2 @@
+- 👋 Hi, c'est k1m3k1
+- 💞️ merci a ceux qui ont rejoint se projet
