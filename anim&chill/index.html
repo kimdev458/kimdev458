@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Anime&chill</title>
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li><a href="#Manga"> Manga</a></li>
+        <li> <a href="#News">News</a></li>
+        <li> <a href="#Forum">Forum</a></li>
+        <img src="Anim&chillLogo.png" alt="Logo" class="logo" style="width: 40px;">
+        <li class="logo"> <a href="#anime&chill"> ANIME&CHILL</a> </li>
+    </ul>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="image0.jpg" alt="" style="width: 100%;">
+                <div class="text">DEAD MOUT DEATHPLAY</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="image1.jpg" alt="" style="width: 100%;">
+                <div class="text">GOLDEN KAMUY</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="image2.jpg" alt="" style="width: 100%;">
+                <div class="text">CHEAT SKILL LEVEL UP</div></div>
+            </div>
+            
+            
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+            <hr class="rounded">
+            <h1 class="trending">
+                | TENDANCES
+            </h1>
+            <div class="row">
+                <div class="column">
+
+                </div>
+            </div>
+
+            <script>
+                let slideIndex = 1;
+              showSlides(slideIndex);
+              
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+              
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+              
+              function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+               
+                if (n > salides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+               
+                slides[slideIndex-1].style.display = "block";  
+              }
+              
+        </script>
+        </div>
+</div>
+</body>
+</html>
